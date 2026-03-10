@@ -1,4 +1,4 @@
-AFRAME.registerComponent('ar-reticle', {
+ AFRAME.registerComponent('ar-reticle', {
  init: function () {
  this.xrHitTestSource = null;
  this.viewerSpace = null;
@@ -49,7 +49,8 @@ AFRAME.registerComponent('ar-reticle', {
  this.el.object3D.position.copy(position);
  this.el.setAttribute('visible', true);
  } else {
-this.el.setAttribute('visible', false);
+ this.el.setAttribute('visible', false);
  }
  }
 });
+
